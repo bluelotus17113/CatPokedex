@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.CatPokedex" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Light mode base -->
+        <item name="colorPrimary">@color/zen_primary</item>
+        <item name="colorOnPrimary">@color/zen_on_primary</item>
+        <item name="colorPrimaryContainer">@color/zen_primary_light</item>
+        <item name="colorOnPrimaryContainer">@color/zen_primary_dark</item>
+        <item name="colorSecondary">@color/zen_secondary</item>
+        <item name="colorOnSecondary">@color/zen_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/zen_secondary_light</item>
+        <item name="colorTertiary">@color/zen_tertiary</item>
+        <item name="colorOnTertiary">@color/zen_on_tertiary</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/zen_bg</item>
+        <item name="colorSurface">@color/zen_surface</item>
+        <item name="colorSurfaceVariant">@color/zen_bg_warm</item>
+        <item name="colorOnBackground">@color/zen_on_surface</item>
+        <item name="colorOnSurface">@color/zen_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/zen_on_surface_light</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/zen_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/zen_bg</item>
+
+        <!-- Shape appearance (rounded everything) -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Zen.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Zen.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Zen.Large</item>
+    </style>
+
+    <!-- Shape appearances: super rounded zen -->
+    <style name="ShapeAppearance.Zen.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeAppearance.Zen.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">20dp</item>
+    </style>
+    <style name="ShapeAppearance.Zen.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerSize">28dp</item>
+    </style>
+
+    <!-- Text appearances -->
+    <style name="TextAppearance.Zen.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/zen_on_surface</item>
+    </style>
+
+    <style name="TextAppearance.Zen.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/zen_on_surface</item>
+    </style>
+
+    <style name="TextAppearance.Zen.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/zen_on_surface_muted</item>
+    </style>
+</resources>

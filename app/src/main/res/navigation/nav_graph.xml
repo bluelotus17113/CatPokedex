@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pokedexFragment">
+
+    <fragment
+        android:id="@+id/pokedexFragment"
+        android:name="com.catpokedex.ui.pokedex.PokedexFragment"
+        android:label="Pokédex"
+        tools:layout="@layout/fragment_pokedex">
+        <action
+            android:id="@+id/action_pokedex_to_detail"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.catpokedex.ui.camera.CameraFragment"
+        android:label="Capturar"
+        tools:layout="@layout/fragment_camera">
+        <action
+            android:id="@+id/action_camera_to_capture"
+            app:destination="@id/captureFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/captureFragment"
+        android:name="com.catpokedex.ui.capture.CaptureFragment"
+        android:label="Nuevo Gato"
+        tools:layout="@layout/fragment_capture" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.catpokedex.ui.detail.DetailFragment"
+        android:label="Detalle"
+        tools:layout="@layout/fragment_detail" />
+
+</navigation>

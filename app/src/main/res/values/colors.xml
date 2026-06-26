@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base zen palette: warm, muted, soft -->
+    <color name="zen_bg">#F5F0EB</color>
+    <color name="zen_bg_warm">#EDE6DD</color>
+    <color name="zen_surface">#FFFFFF</color>
+    <color name="zen_surface_elevated">#FFFEFC</color>
+    <color name="zen_on_surface">#3D3835</color>
+    <color name="zen_on_surface_light">#7A746E</color>
+    <color name="zen_on_surface_muted">#A8A29E</color>
+
+    <!-- Accent: warm terracotta/salmon (cat vibes) -->
+    <color name="zen_primary">#C4906A</color>
+    <color name="zen_primary_light">#D4A57F</color>
+    <color name="zen_primary_dark">#A67555</color>
+    <color name="zen_on_primary">#FFFFFF</color>
+
+    <!-- Secondary: sage green (calm) -->
+    <color name="zen_secondary">#8FA68E</color>
+    <color name="zen_secondary_light">#A3BAA2</color>
+    <color name="zen_on_secondary">#FFFFFF</color>
+
+    <!-- Tertiary: soft lavender (zen) -->
+    <color name="zen_tertiary">#A695B8</color>
+    <color name="zen_on_tertiary">#FFFFFF</color>
+
+    <!-- Dark zen variant -->
+    <color name="zen_dark_bg">#1A1816</color>
+    <color name="zen_dark_surface">#262320</color>
+    <color name="zen_dark_card">#2E2B27</color>
+    <color name="zen_dark_stroke">#3D3935</color>
+    <color name="zen_dark_on_surface">#E8E2DA</color>
+    <color name="zen_dark_on_surface_light">#A8A29E</color>
+
+    <!-- Cat type colors (muted, zen versions) -->
+    <color name="type_fire">#C4906A</color>
+    <color name="type_water">#7BA7BC</color>
+    <color name="type_grass">#8FA68E</color>
+    <color name="type_electric">#C4A85A</color>
+    <color name="type_psychic">#A695B8</color>
+    <color name="type_normal">#A8A29E</color>
+    <color name="type_ice">#8CBDBF</color>
+    <color name="type_dark">#6B6360</color>
+    <color name="type_fairy">#C49BA8</color>
+    <color name="type_ghost">#8E84A0</color>
+    <color name="type_fighter">#BC8A7B</color>
+    <color name="type_dragon">#7B8FBF</color>
+
+    <!-- Soft overlays -->
+    <color name="zen_overlay_light">#15000000</color>
+    <color name="zen_overlay_warm">#08C4906A</color>
+    <color name="zen_success">#E8F5E9</color>
+    <color name="zen_error">#FFEBEE</color>
+
+    <!-- Basic colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

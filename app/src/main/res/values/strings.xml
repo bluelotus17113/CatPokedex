@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CatPokedex</string>
+    <string name="capture">Capturar</string>
+    <string name="pokedex">Pokédex</string>
+    <string name="name_hint">¿Cómo se llama este gato?</string>
+    <string name="type_hint">¿Qué tipo es?</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Liberar</string>
+    <string name="empty_pokedex">Tu Pokédex está vacía
+
+Respira hondo y sal a capturar gatos 🐱</string>
+    <string name="cat_saved">%1$s se unió a tu Pokédex ✨</string>
+    <string name="cat_deleted">%1$s fue liberado con amor 🐾</string>
+    <string name="confirm_delete">¿Liberar a %1$s?
+
+Volverá al mundo, libre y feliz.</string>
+    <string name="yes">Liberar</string>
+    <string name="no">Quedármelo</string>
+    <string name="number_format">#%1$03d</string>
+    <string name="captured_on">Capturado el %1$s</string>
+    <string name="total_cats">%1$d gatos capturados</string>
+    <string name="zen_quote_capture">"Cada gato que encuentras es un momento de paz"</string>
+    <string name="zen_quote_empty">"La paciencia trae las mejores capturas"</string>
+    <string name="shutter_sound">🔊 *click suave*</string>
+</resources>
