@@ -20,7 +20,7 @@
     </fragment>
 
     <fragment
-        android:id="@+id/cameraFragment"
+        android:id="@+id/nav_camera"
         android:name="com.catpokedex.ui.camera.CameraFragment"
         android:label="Capturar"
         tools:layout="@layout/fragment_camera">

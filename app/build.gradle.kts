@@ -75,6 +75,9 @@ dependencies {
     // Coil para cargar imágenes
     implementation("io.coil-kt:coil:2.5.0")
 
+    // ML Kit Object Detection (on-device, offline) para detectar gatos
+    implementation("com.google.mlkit:object-detection:17.0.2")
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")

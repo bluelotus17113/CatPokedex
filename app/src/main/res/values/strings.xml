@@ -23,5 +23,7 @@ Volverá al mundo, libre y feliz.</string>
     <string name="total_cats">%1$d gatos capturados</string>
     <string name="zen_quote_capture">"Cada gato que encuentras es un momento de paz"</string>
     <string name="zen_quote_empty">"La paciencia trae las mejores capturas"</string>
+    <string name="not_a_cat">No detecté un gato 🐱 Intentá de nuevo</string>
+    <string name="analyzing">Analizando...</string>
     <string name="shutter_sound">🔊 *click suave*</string>
 </resources>

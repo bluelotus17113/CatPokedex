@@ -21,5 +21,6 @@ class ZenSoundManager(context: Context) {
         const val SOUND_NAVIGATE = 3
         const val SOUND_OPEN = 4
         const val SOUND_SHUTTER = 5
+        const val SOUND_ERROR = 6
     }
 }
